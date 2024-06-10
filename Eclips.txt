@@ -1,0 +1,19 @@
+https://start.spring.io
+_______________________________________________________
+
+ VS CODE TURN INTO THE ECLIPS
+
+
+step 1 ) Install Extension
+> Spring Boot Inisilizer , Spring Boot Tools , SpringBoot Dashboard and Thunder Client
+
+step 2 ) Congiger The Extension
+
+> Shift + ctrl + P 
+> Select Spring Inisilizer : Create Maven Project
+> then, 2.50 (snapshot)
+> java
+> Give name of grojext (com.example.projectName)
+> jar
+> version
+> 

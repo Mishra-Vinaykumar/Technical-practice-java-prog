@@ -1,0 +1,29 @@
+Banking Transaction System
+
+Objective: Design and implement a Banking Transaction System using Java, incorporating static, abstract, and final.
+
+Instructions:
+
+1.Static:
+
+a. Implement a Bank class with a static variable totalAccounts to keep track of the total number of bank accounts.
+
+b. Create a static method getTotalAccounts() that returns the current value of totalAccounts.
+
+c. Utilize the static keyword to ensure that totalAccounts is shared among all instances of the Bank class
+
+
+a. Create an abstract class Account with abstract methods like deposit(), withdraw(), and getBalance().
+
+b. Implement concrete methods for common functionality in the Account class.
+
+c. Create two subclasses, SavingsAccount and CheckingAccount, inheriting from the Account class.
+
+d. Implement specific functionality for deposit, withdrawal, and balance retrieval in each subclass.
+
+
+a. Design a Transaction class with final methods such as performTransaction() to ensure that the transaction process is consistent across all instances.
+
+b. Create a final variable transactionFee that represents a fixed fee for each transaction.
+
+c. Demonstrate how the final methods and variables contribute to maintaining the integrity of the transaction process.
