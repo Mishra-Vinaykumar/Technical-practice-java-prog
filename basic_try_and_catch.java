@@ -13,18 +13,17 @@ public class basic_try_and_catch {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter two numbers to divide:");
-        int div = scanner.nextInt();
-        int divisor = scanner.nextInt();
+        int div = sc.nextInt();
+        int divisor = sc.nextInt();
 
         try {
 
             int r = divide(div, divisor);
             System.out.println("Result of division: " + r);
         } catch (ArithmeticException e) {
-
             System.out.println("Error: Division by zero is not allowed.");
         } finally {
             System.out.println("Program execution complete.");
