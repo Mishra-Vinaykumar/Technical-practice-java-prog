@@ -10,9 +10,9 @@ public class upperboundWildcardDemo {
         System.out.println("sum = " + UpperBoundedWildCard.sumOfList(intList));
 
         ArrayList<Double> doubleList = new ArrayList<Double>();
+        doubleList.add(30.0);
         doubleList.add(10.0);
         doubleList.add(20.0);
-        doubleList.add(30.0);
         // passing Double List
         System.out.println("sum = " + UpperBoundedWildCard.sumOfList(doubleList));
     }
