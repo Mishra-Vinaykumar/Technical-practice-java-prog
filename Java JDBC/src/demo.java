@@ -5,7 +5,8 @@ public class demo {
 
     public static void main(String[] args) throws Exception {
 
-        String qur = "select Name from emp where id=1005";
+        String qur = "select * from emp";
+        // String qur = "select Name from emp where id=1005";
         String url = "jdbc:mysql://localhost:3306/colloge";
         String user = "root";
         String pass = "Akvi9925";
